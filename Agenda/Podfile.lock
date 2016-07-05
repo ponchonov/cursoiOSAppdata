@@ -1,0 +1,23 @@
+PODS:
+  - Alamofire (3.4.1)
+  - NVActivityIndicatorView (2.9)
+  - Realm (1.0.1):
+    - Realm/Headers (= 1.0.1)
+  - Realm/Headers (1.0.1)
+  - RealmSwift (1.0.1):
+    - Realm (= 1.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - NVActivityIndicatorView (~> 2.9)
+  - RealmSwift
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  NVActivityIndicatorView: 0084f6be71bdf4735b5424ebfb530b1e3db3276c
+  Realm: 2e15e39d35b08abb529e212ed5d8af107b5236c8
+  RealmSwift: d73ea2af08c3676dbdd5e4b669651a0f492162a4
+
+PODFILE CHECKSUM: a48c8f2cb0b084d2af8e0dedebcb885905575b85
+
+COCOAPODS: 1.0.1
