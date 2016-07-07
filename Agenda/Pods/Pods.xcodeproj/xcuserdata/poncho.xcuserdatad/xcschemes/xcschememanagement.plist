@@ -9,11 +9,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>NVActivityIndicatorView.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-Agenda.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,7 +27,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2E0C39DF5FB14884D0E76350C3C47E12</key>
+		<key>6D469BE7FBF25A641562E7A397902817</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -42,17 +37,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7B93589DEBBF1D5FF852BC85A623CCC7</key>
+		<key>C58E7F5D9AAD4FB91620F5FADB9651B5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8698C4558AE758AD92477EC134E714F7</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>CD2AACFDECB9FBC78A650141646297A2</key>
+		<key>E7ED70B40CF84772BF412EEFF6E65740</key>
 		<dict>
 			<key>primary</key>
 			<true/>

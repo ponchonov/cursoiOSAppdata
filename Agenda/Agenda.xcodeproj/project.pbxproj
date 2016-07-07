@@ -15,6 +15,11 @@
 		970BAC451D2BFBF5000F6025 /* AgendaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970BAC441D2BFBF5000F6025 /* AgendaTests.swift */; };
 		970BAC501D2BFBF5000F6025 /* AgendaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970BAC4F1D2BFBF5000F6025 /* AgendaUITests.swift */; };
 		970BAC5E1D2BFD05000F6025 /* Contacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970BAC5D1D2BFD05000F6025 /* Contacto.swift */; };
+		970BAC601D2C2C7B000F6025 /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970BAC5F1D2C2C7B000F6025 /* AddContactViewController.swift */; };
+		970BAC621D2C2CC6000F6025 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970BAC611D2C2CC6000F6025 /* MapViewController.swift */; };
+		970BAC641D2C2CDD000F6025 /* DetailContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970BAC631D2C2CDD000F6025 /* DetailContactViewController.swift */; };
+		970BAC661D2C3017000F6025 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970BAC651D2C3017000F6025 /* CustomTableViewCell.swift */; };
+		97E03EF21D2EB44700A55C0C /* contact.png in Resources */ = {isa = PBXBuildFile; fileRef = 97E03EF11D2EB44700A55C0C /* contact.png */; };
 		D3C333AA0FA64486CE90770B /* Pods_Agenda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A8B54DB3FEAE3064E9B7AB /* Pods_Agenda.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +57,11 @@
 		970BAC4F1D2BFBF5000F6025 /* AgendaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaUITests.swift; sourceTree = "<group>"; };
 		970BAC511D2BFBF5000F6025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		970BAC5D1D2BFD05000F6025 /* Contacto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contacto.swift; sourceTree = "<group>"; };
+		970BAC5F1D2C2C7B000F6025 /* AddContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
+		970BAC611D2C2CC6000F6025 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		970BAC631D2C2CDD000F6025 /* DetailContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailContactViewController.swift; sourceTree = "<group>"; };
+		970BAC651D2C3017000F6025 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		97E03EF11D2EB44700A55C0C /* contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contact.png; sourceTree = "<group>"; };
 		A6A8B54DB3FEAE3064E9B7AB /* Pods_Agenda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Agenda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -114,13 +124,18 @@
 		970BAC2E1D2BFBF5000F6025 /* Agenda */ = {
 			isa = PBXGroup;
 			children = (
+				97E03EF31D2EB54700A55C0C /* images */,
 				970BAC2F1D2BFBF5000F6025 /* AppDelegate.swift */,
 				970BAC311D2BFBF5000F6025 /* ViewController.swift */,
+				970BAC5F1D2C2C7B000F6025 /* AddContactViewController.swift */,
+				970BAC611D2C2CC6000F6025 /* MapViewController.swift */,
+				970BAC631D2C2CDD000F6025 /* DetailContactViewController.swift */,
 				970BAC331D2BFBF5000F6025 /* Main.storyboard */,
 				970BAC361D2BFBF5000F6025 /* Assets.xcassets */,
 				970BAC381D2BFBF5000F6025 /* LaunchScreen.storyboard */,
 				970BAC3B1D2BFBF5000F6025 /* Info.plist */,
 				970BAC5D1D2BFD05000F6025 /* Contacto.swift */,
+				970BAC651D2C3017000F6025 /* CustomTableViewCell.swift */,
 			);
 			path = Agenda;
 			sourceTree = "<group>";
@@ -141,6 +156,14 @@
 				970BAC511D2BFBF5000F6025 /* Info.plist */,
 			);
 			path = AgendaUITests;
+			sourceTree = "<group>";
+		};
+		97E03EF31D2EB54700A55C0C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				97E03EF11D2EB44700A55C0C /* contact.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 		F420B8A346306CD33F23DAB9 /* Pods */ = {
@@ -262,6 +285,7 @@
 				970BAC3A1D2BFBF5000F6025 /* LaunchScreen.storyboard in Resources */,
 				970BAC371D2BFBF5000F6025 /* Assets.xcassets in Resources */,
 				970BAC351D2BFBF5000F6025 /* Main.storyboard in Resources */,
+				97E03EF21D2EB44700A55C0C /* contact.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,7 +359,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				970BAC321D2BFBF5000F6025 /* ViewController.swift in Sources */,
+				970BAC601D2C2C7B000F6025 /* AddContactViewController.swift in Sources */,
 				970BAC301D2BFBF5000F6025 /* AppDelegate.swift in Sources */,
+				970BAC661D2C3017000F6025 /* CustomTableViewCell.swift in Sources */,
+				970BAC621D2C2CC6000F6025 /* MapViewController.swift in Sources */,
+				970BAC641D2C2CDD000F6025 /* DetailContactViewController.swift in Sources */,
 				970BAC5E1D2BFD05000F6025 /* Contacto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

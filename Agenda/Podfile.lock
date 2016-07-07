@@ -1,6 +1,6 @@
 PODS:
   - Alamofire (3.4.1)
-  - NVActivityIndicatorView (2.9)
+  - GoogleMaps (1.13.2)
   - Realm (1.0.1):
     - Realm/Headers (= 1.0.1)
   - Realm/Headers (1.0.1)
@@ -9,15 +9,15 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
-  - NVActivityIndicatorView (~> 2.9)
+  - GoogleMaps (~> 1.13)
   - RealmSwift
 
 SPEC CHECKSUMS:
   Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
-  NVActivityIndicatorView: 0084f6be71bdf4735b5424ebfb530b1e3db3276c
+  GoogleMaps: b20a103ff307f58392e603cf142e59d7e30374c1
   Realm: 2e15e39d35b08abb529e212ed5d8af107b5236c8
   RealmSwift: d73ea2af08c3676dbdd5e4b669651a0f492162a4
 
-PODFILE CHECKSUM: a48c8f2cb0b084d2af8e0dedebcb885905575b85
+PODFILE CHECKSUM: e752322364762601d023c9fb2b5e9730788630b9
 
 COCOAPODS: 1.0.1

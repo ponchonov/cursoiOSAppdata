@@ -4,4 +4,5 @@ use_frameworks!
 target 'Agenda' do
   pod 'Alamofire'
   pod 'RealmSwift'
+  pod 'GoogleMaps', '~> 1.13'
 end
